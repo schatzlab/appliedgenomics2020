@@ -16,7 +16,7 @@ If you do not have access to a linux/mac machine, download and install a virtual
 machine or ubuntu instance following the directions here: https://github.com/schatzlab/appliedgenomics2018/blob/master/assignments/virtualbox.md
 
 Alternatively, you might also want to try out this docker instance that has these tools preinstalled: 
-[https://github.com/srivathsapv/wga-essentials](https://github.com/srivathsapv/wga-essentials)
+[https://github.com/mschatz/wga-essentials](https://github.com/mschatz/wga-essentials)
 
 
 #### Question 1. Coverage Analysis [20 pts]
