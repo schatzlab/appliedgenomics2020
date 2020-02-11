@@ -19,19 +19,19 @@ Due Date: Wednesday, Feb. 19, 2020 @ 11:59pm <br>
 - Q2a. Draw (by hand or by code) the de Bruijn graph for the following reads using k=3 (assume all reads are from the forward strand, no sequencing errors, complete coverage of the genome)
 
 ```
-ATTC
-ATTG
-CATT
-CTTA
-GATT
-TATT
-TCAT
-TCTT
-TGAT
-TTAT
-TTCA
-TTCT
-TTGA
+ATTCA
+ATTGA
+CATTG
+CTTAT
+GATTG
+TATTT
+TCATT
+TCTTA
+TGATT
+TTATT
+TTCAT
+TTCTT
+TTGAT
 ```
 
 - Q2b. Assume that the maximum number of occurrences of any 3-mer in the actual genome is 3 using the k-mers from Q1a. Write one possible genome sequence
