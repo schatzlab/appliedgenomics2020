@@ -1,4 +1,4 @@
-## Assignment 3: Coverage, Genome Assembly, and the BWT
+## Assignment 3: Coverage, Genome Assembly, and Variant Calling
 Assignment Date: Wednesday, Feb. 12, 2020 <br>
 Due Date: Wednesday, Feb. 19, 2020 @ 11:59pm <br>
 
@@ -51,13 +51,13 @@ Download the read set from here:
 For this question, you may find this tutorial helpful:  
 [http://clavius.bc.edu/~erik/CSHL-advanced-sequencing/freebayes-tutorial.html](http://clavius.bc.edu/~erik/CSHL-advanced-sequencing/freebayes-tutorial.html)
 
-- 2a. Using bowtie2, how many reads align to the chr22 reference? How many reads did not align? How many aligned reads had a mate that did not align (AKA singletons)? Count each read in a pair separately.  
+- 3a. Using bowtie2, how many reads align to the chr22 reference? How many reads did not align? How many aligned reads had a mate that did not align (AKA singletons)? Count each read in a pair separately.  
 [Hint: Build the index using `bowtie2-build`, align reads using `bowtie2`, analyze with `samtools flagstat`.]
 
-- 2b. How many reads are mapped to the reverse strand? Count each read in a pair separately.   
+- 3b. How many reads are mapped to the reverse strand? Count each read in a pair separately.   
 [Hint: Find out what SAM flags mean [here](https://broadinstitute.github.io/picard/explain-flags.html) and use samtools view.]
 
-- 2c. How many high-quality (QUAL > 20) single nucleotide and indel variants does the sample have? Of the indels, how many are insertions and how many are deletions?  
+- 3c. How many high-quality (QUAL > 20) single nucleotide and indel variants does the sample have? Of the indels, how many are insertions and how many are deletions?  
 [Hint:  Identify variants using `freebayes` - sort the SAM file first. Then call variants with freebayes. Filter using `bcftools filter`, and summarize using `bcftools stats`.]
 
 
