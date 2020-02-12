@@ -2,6 +2,13 @@
 Assignment Date: Wednesday, Feb. 12, 2020 <br>
 Due Date: Wednesday, Feb. 19, 2020 @ 11:59pm <br>
 
+Some of the tools you will need to use only run in a linux or mac environment. 
+If you do not have access to a linux/mac machine, download and install a virtual 
+machine or ubuntu instance following the directions here: https://github.com/schatzlab/appliedgenomics2018/blob/master/assignments/virtualbox.md
+
+Alternatively, you might also want to try out this docker instance that has these tools preinstalled: 
+[https://github.com/mschatz/wga-essentials](https://github.com/mschatz/wga-essentials)
+
 
 ### Question 1. Coverage simulator [10 pts]
 
