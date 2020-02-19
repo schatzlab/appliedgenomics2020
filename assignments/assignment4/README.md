@@ -9,7 +9,7 @@ In this assignment, you will analyze variant data and make different visualizati
 [Piazza](https://piazza.com/jhu/spring2020/en601749/home).
 
 
-#### Question 1. De novo mutation analysis [10 pts]
+#### Question 1. De novo mutation analysis [20 pts]
 
 For this question, we will be focusing on the de novo variants identified in this paper:<br>
 [http://www.nature.com/articles/npjgenmed201627](http://www.nature.com/articles/npjgenmed201627)
@@ -23,15 +23,26 @@ Download the gene annotation of the human genome here: <br>
 Download the annotation of regulatory variants from here:<br>
 [ftp://ftp.ensembl.org/pub/release-87/regulation/homo_sapiens/homo_sapiens.GRCh38.Regulatory_Build.regulatory_features.20161111.gff.gz](ftp://ftp.ensembl.org/pub/release-87/regulation/homo_sapiens/homo_sapiens.GRCh38.Regulatory_Build.regulatory_features.20161111.gff.gz)
 
+Download chromosome 22 from build 38 of the human genome from here:  
+[http://hgdownload.cse.ucsc.edu/goldenPath/hg38/chromosomes/chr22.fa.gz](http://hgdownload.cse.ucsc.edu/goldenPath/hg38/chromosomes/chr22.fa.gz)
+
 **NOTE** The variants are reported using version 37 of the reference genome, but the annotation is for version 38. Fortunately, you can 'lift-over' the variants to the coordinates on the new reference genome using several avaible tools. I recommmend the [USCS liftover tool](https://genome.ucsc.edu/cgi-bin/hgLiftOver) that can do this in batch by converting the variants into BED format. Note, some variants may not successfully lift over, especially if they become repetitive and/or missing in the new reference, so please make a note of how many variants fail liftover.
 
-- Question 1a. How many variants are in genes? [Hint: convert xlsx to BED, then `bedtools`]
+- Question 1a. How much of the genome is annotated as a gene?
 
-- Question 1b. How many variants are in *any* annotated regulatory regions? [Hint: `bedtools`]
+- Question 1b. What is the sequence of the shortest gene on chromosome 22? [Hint: `bedtools getfasta`]
 
-- Question 1c. What type of annotated regulatory region has the most variants? [Hint: `bedtools`]
+- Question 1c. How much of the genome is an annotated regulatory sequence (any type)? [Hint `bedtools merge`]
 
-- Question 1d. Is this a statistically significant number of variants (P-value < 0.05)? [Hint: If you don't want to calculate this analytically, you can do an experiment. Try simulating the same number of variants as the original file 100 times, and see how many fall into this regulatory type. If at least this many variants fall into this feature type more than 5% of the trials, this is not statistically significant]
+- Question 1d. How much of the genome is neither gene nor regulatory sequences [Hint: `bedtools merge` + `bedtools subtract`]
+
+- Question 1e. How many variants are in genes? [Hint: convert xlsx to BED, then `bedtools`]
+
+- Question 1f. How many variants are in *any* annotated regulatory regions? [Hint: `bedtools`]
+
+- Question 1g. What type of annotated regulatory region has the most variants? [Hint: `bedtools`]
+
+- Question 1h. Is this a statistically significant number of variants (P-value < 0.05)? [Hint: If you don't want to calculate this analytically, you can do an experiment. Try simulating the same number of variants as the original file 100 times, and see how many fall into this regulatory type. If at least this many variants fall into this feature type more than 5% of the trials, this is not statistically significant]
 
 
 #### Question 2. Time Series [20 pts]
@@ -44,8 +55,7 @@ expression over the timecourse and some show decreased expression.
 and how did you determine this? What is the background expression level (numerical value) and how did you determine this?
 [Hint: K-means and hierarchical clustering are common clustering algorithms you could try.]
 
-- Question 2b. Calculate the first two principal components of the expression matrix. Show the plot and color the points based on their cluster from part (a).
-Does the PC1 axis, PC2 axis, neither, or both correspond to the clustering?
+- Question 2b. Calculate the first two principal components of the expression matrix. Show the plot and color the points based on their cluster from part (a). Does the PC1 axis, PC2 axis, neither, or both correspond to the clustering?
 
 - Question 2c. Create a heatmap of the expression matrix. Order the genes by cluster, but keep the time points in numerical order.
 
