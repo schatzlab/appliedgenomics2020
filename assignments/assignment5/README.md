@@ -1,6 +1,6 @@
-## Assignment 5: Annotations and RNA-seq
-Assignment Date: Wednesday, March 4, 2020
-Due Date: Wednesday, March 11, 2020 @ 11:59pm  
+## Assignment 5: Annotations and RNA-seq <br>
+Assignment Date: Wednesday, March 4, 2020 <br>
+Due Date: Wednesday, March 11, 2020 @ 11:59pm <br>
 
 ### Assignment Overview
 
