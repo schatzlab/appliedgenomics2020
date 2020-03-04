@@ -32,13 +32,13 @@ this concept by sampling a small subset of transcripts (500 to 50000) out of a m
 In [data1.txt](data1.txt) with 1,000,000 lines we provide an abstraction of RNA-seq data where normalization has been performed and 
 the number of times a gene name occurs corresponds to the number of transcripts in the sample.
 
-Question 2a. Randomly sample 500 rows. Do this simulation 10 times and record the relative abundance of each of the 15 genes. Plot the mean vs. variance.
+Question 2a. Randomly sample 500 rows. Do this simulation 10 times and record the relative abundance of each of the 15 genes. Make a scatterplot the mean vs. variance of each gene (x-axis=mean of gene_i, y-axis=variance of gene_i)
 
 Question 2b. Do the same sampling experiment but sample 5000 rows each time. Again plot the mean vs. variance.
 
 Question 2c. Do the same sampling experiment but sample 50000 rows each time. Again plot the mean vs. variance.
 
-Question 2d. Is the variance greater in (a), (b) or (c)?, and explain why. What is the relationship between abundance and variance? 
+Question 2d. Is the variance greater in (a), (b) or (c)? What is the relationship between mean abundance and variance? Why?
 
 
 #### Question 3. Differential Expression [10 pts]
@@ -47,7 +47,7 @@ Question 3a. Using the file from question 2 (data1.txt) along with [data2.txt](d
 Sample 5 times for each file (this emulates making experimental replicates) and conduct a paired t-test for 
 differential expression of each of the 15 genes. Which genes are significantly differentially expressed at the 0.05 level and what is their mean fold change?
 
-Question 3b. Make a volano plot of the data: x-axis=log2(fold change of the mean expression); y-axis=-log_10(p_value). Label all of the genes that show a statistically siginificant change
+Question 3b. Make a volano plot of the data: x-axis=log2(fold change of the mean expression of gene_i); y-axis=-log_10(p_value comparing the expression of gene_i). Label all of the genes that show a statistically siginificant change
 
 Question 3c. Now sample 5000 rows 10 times from each file, equivalent to making more replicates. Which genes are now significant at the 0.05 level and what is their mean fold change?
 
