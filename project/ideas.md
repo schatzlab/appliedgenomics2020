@@ -44,8 +44,7 @@ If any of these are not available, your project will not be successful, especial
 8. Optimize an assembler and/or SV caller for Nanopore ultralong reads and/or PacBio HiFi reads:
 [Telomere-to-telomere consortium](https://github.com/nanopore-wgs-consortium/CHM13) [HiFi reads](https://www.nature.com/articles/s41587-019-0217-9)
 
-9. Evaluate the impact of "edge-wander" in dynammic programming of long reads:
-[Edge Wander](https://europepmc.org/abstract/med/9773345)
+9. Develop methods for detecting mis-assemblies or consensus errors from long read data [Quast](http://quast.sourceforge.net/) [Clair](https://www.biorxiv.org/content/10.1101/865782v2.full)
 
 
 ## Functional Genomics
