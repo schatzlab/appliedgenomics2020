@@ -18,6 +18,8 @@ If any of these are not available, your project will not be successful, especial
 2. Align the raw signal from Oxford Nanopore or PacBio reads to a reference genome to improve variant detection, detect methlyation, and/or polishing:
 [Nanopolish](http://www.nature.com/nmeth/journal/v12/n8/abs/nmeth.3444.html)
 
+3. Develop a signal-level analysis tool to detect repeat expansions/contractions from nanopore data [NanoSatellite](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-019-1856-3) [Dynamic Time Warping](https://en.wikipedia.org/wiki/Dynamic_time_warping)
+
 
 ## Genome assembly and variant calling
 
@@ -45,6 +47,10 @@ If any of these are not available, your project will not be successful, especial
 [Telomere-to-telomere consortium](https://github.com/nanopore-wgs-consortium/CHM13) [HiFi reads](https://www.nature.com/articles/s41587-019-0217-9)
 
 9. Develop methods for detecting mis-assemblies or consensus errors from long read data [Quast](http://quast.sourceforge.net/) [Clair](https://www.biorxiv.org/content/10.1101/865782v2.full)
+
+10. Develop an Nanopore-based algorithm that leverages ReadUntil to dynammically assemble a genome with minimal coverage. [UNCALLED](https://www.biorxiv.org/content/10.1101/2020.02.03.931923v1)
+
+
 
 
 ## Functional Genomics
