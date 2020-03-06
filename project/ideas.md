@@ -121,6 +121,8 @@ If any of these are not available, your project will not be successful, especial
 6. Apply deep learning techniques to a problem in genomics
 [Primer](https://www.nature.com/articles/s41588-018-0295-5)
 
+7. Develop a novel fastq/BAM compression scheme for long term storage (which may require a large precomputed dictionary and/or extensive compute)
+
 
 ## Biologically inspired computing
 
