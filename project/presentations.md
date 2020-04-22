@@ -8,13 +8,16 @@ Presentations will be a total of 20 minutes: 15 minutes for the presentation, fo
 Day     | Time      | Team Name                | Students                                 | Title 
 --------|-----------|--------------------------|------------------------------------------|---------------------------------------------------------------------
 Wed 4/22 | 1:30 - 1:50 | Predict enhancer-promoter interactions  |  Sandeep Kambhampati, Kevin Zhan, Tatiana Gelaf | Using deep learning approaches on DNA sequence and DNA methylation data to predict enhancer-promoter interactions
-Wed 4/22 | 1:50 - 2:10 | Team Cao |   Hongyu Cao  |  Benchmarking variant calling algorithms and performance
-Wed 4/22 | 2:10 - 2:30 | SAMtools |  Samantha Zarate, April Kim, Michelle Shu | Phylogenetic and Comparative Analysis of SARS-CoV-2
+Wed 4/22 | 1:50 - 2:10 | SAMtools |  Samantha Zarate, April Kim, Michelle Shu | Phylogenetic and Comparative Analysis of SARS-CoV-2
+ | | | |
 Mon 4/27 | 1:30 - 1:50 | Two-Step Project | Lukas Voortman | Determining the generality of the two-step mechanism in the Drosophila genome
 Mon 4/27 | 1:50 - 2:10 | Gviz  |  Ebenezer Armah  |  Genomic Data Visualization
 Mon 4/27 | 2:10 - 2:30 | ByOhInPho | Louis (Jinrui) Liu, Yijun Li | Assess the performance of Monocle Algorithm
+ | | | |
 Wed 4/29 | 1:30 - 1:50 | Metagenomics Team | Harrison Huh, Qing Dai, Victor Wang | CNN approach to metagenomics
 Wed 4/29 | 1:50 - 2:10 | CRISPR efficiency | Josh Popp and Bohan Ni | CRISPR efficiency
+Wed 4/22 | 2:10 - 2:30 | Team Cao |   Hongyu Cao  |  Benchmarking variant calling algorithms and performance
+
 
     
 <br>
